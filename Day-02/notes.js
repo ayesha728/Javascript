@@ -1,7 +1,3 @@
-
-
-
-
 // Valid identifiers
 let userName = "Alice";
 let _privateData = 123;
@@ -14,7 +10,6 @@ const MAX_USERS = 100;
 // let total--cost;
 // let let;
 
-
 let isLoggedIn = true;
 let isAdmin = false;
 
@@ -25,14 +20,12 @@ console.log(typeof x); // string
 x = true;
 console.log(typeof x); // boolean
 
-
 let singleQuote = 'Hello';
 let doubleQuote = "World";
 let backticks = `Hello World`;
 
 let escaped1 = 'It\'s a beautiful day';
 let escaped2 = "She said, \"Hello!\"";
-
 
 let language = "JavaScript";
 
@@ -41,7 +34,6 @@ console.log(language[0]);                   // J
 console.log(language[4]);                   // S
 console.log(language[language.length - 1]); // t
 console.log(language[100]);                 // undefined
-
 
 let firstName = "John";
 let lastName = "Doe";
@@ -52,7 +44,6 @@ console.log(fullName1);
 let score = 85;
 let message1 = "Score is " + score;
 console.log(message1);
-
 
 let fullName2 = `${firstName} ${lastName}`;
 console.log(fullName2);
@@ -65,7 +56,6 @@ let hour = 14;
 let greeting = `Good ${hour < 12 ? "morning" : "afternoon"}, ${firstName}!`;
 console.log(greeting);
 
-
 let value1;
 console.log(value1);        // undefined
 console.log(typeof value1); // undefined
@@ -77,14 +67,11 @@ console.log(typeof value2); // object (JS bug)
 let user = { name: "Alice" };
 console.log(user.age);      // undefined
 
-
-
 console.log(10 > 5);   // true
 console.log(5 < 2);    // false
 console.log(5 >= 5);   // true
 console.log(3 <= 4);   // true
 console.log(5 != 5);   // false
-
 
 console.log(5 == "5");     // true
 console.log(5 === "5");    // false
@@ -92,7 +79,6 @@ console.log(true == 1);    // true
 console.log(true === 1);   // false
 console.log(null == undefined);  // true
 console.log(null === undefined); // false
-
 
 console.log('a' > 'A');           // true
 console.log('b' < 'c');           // true

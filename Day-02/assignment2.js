@@ -1,7 +1,3 @@
-
-
-
-
 // Problem 2: Fix Variable Names (camelCase)
 let firstNameCorrect = "Alice";
 let secondPlace = 2;
@@ -15,8 +11,6 @@ let isLoggedIn = true;
 const maxAttempts = 3;
 let finalGrade = 85;
 let productPrice = 99.99;
-
-
 
 // Problem 4
 let isRaining = false;
@@ -47,8 +41,6 @@ let str3 = `Hello World`;
 // Problem 8: String Concatenation
 let fullLang = language + " is awesome";
 console.log(fullLang);
-
-
 
 // Problem 9
 let message1 = "Hello World";
@@ -83,8 +75,6 @@ let userName = "Bob";
 let greetUser = `Good afternoon, ${userName}! It's ${hourOfDay}:00.`;
 console.log(greetUser);
 
-
-
 // Problem 11
 let scoreValue;
 console.log(scoreValue); // undefined
@@ -94,8 +84,6 @@ console.log(winner); // null
 
 let user = { name: "Alice" };
 console.log(user.age); // undefined
-
-
 
 // Problem 12
 console.log(10 > 5);     // true
@@ -109,8 +97,6 @@ console.log(15 > 20);    // false
 console.log(18 >= 18);   // true
 console.log(30 > 25);    // true
 console.log(75 < 60);    // false
-
-
 
 // Problem 14
 console.log(5 == 5);       // true
@@ -132,8 +118,6 @@ console.log(temp > 25); // true
 let examScore = 75;
 console.log(examScore < 60); // false
 
-
-
 // Problem 16
 console.log('a' > 'A');        // true
 console.log('b' < 'c');        // true
@@ -145,8 +129,6 @@ console.log("10" < "2");       // true (string comparison)
 let strA = "Hello";
 let strB = "HELLO";
 console.log(strA.toLowerCase() === strB.toLowerCase()); // true
-
-
 
 // Problem 18
 let userGreetingName = "Sarah";
@@ -179,8 +161,6 @@ let mName = "Robert";
 let lName = "Smith";
 let initials = `${fName[0]}.${mName[0]}.${lName[0]}.`;
 console.log(initials);
-
-
 
 // Problem 23: Corrected Code
 let firstPlace = "Gold";

@@ -1,7 +1,3 @@
-
-
-/* ========= PART A: VARIABLES & DATA TYPES ========= */
-
 // Problem 1
 let firstName = "Ayesha";
 let age = 33;
@@ -37,9 +33,6 @@ let b = 3;
 let result = a + b;
 console.log(result);
 console.log(typeof result);
-
-
-/* ========= PART B: ARITHMETIC OPERATIONS ========= */
 
 // Problem 6
 let num1 = 45;
@@ -78,9 +71,6 @@ let number = 17;
 let evenOrOdd = (number % 2 === 0) ? "Even" : "Odd";
 console.log(evenOrOdd);
 
-
-/* ========= PART C: OPERATOR PRECEDENCE ========= */
-
 // Problem 11 & 12
 let result1 = 10 + 5 * 2;
 let result2 = (10 + 5) * 2;
@@ -97,9 +87,6 @@ console.log(result5);
 // Problem 13
 let finalResult = ((15 + 5) * 3 - 10) / 4;
 console.log(finalResult);
-
-
-/* ========= PART D: ASSIGNMENT OPERATORS ========= */
 
 // Problem 14
 let balance = 5000;
@@ -127,9 +114,6 @@ console.log("Year 2:", amount);
 
 amount *= 1.10;
 console.log("Year 3:", amount);
-
-
-/* ========= PART E: INCREMENT / DECREMENT ========= */
 
 // Problem 16
 let x = 10;
@@ -161,9 +145,6 @@ console.log(num, newNum);
 newNum = ++num;
 console.log(num, newNum);
 
-
-/* ========= PART F: NaN ========= */
-
 // Problem 19
 console.log(0 / 0);
 console.log("hello" * 5);
@@ -182,9 +163,6 @@ console.log(Number.isNaN(value2));
 console.log(Number.isNaN(value3));
 console.log(Number.isNaN(value4));
 
-
-/* ========= PART G: REAL-WORLD ========= */
-
 // Problem 21
 let math = 85;
 let science = 92;
@@ -201,9 +179,6 @@ let birthYear = 1997;
 let currentAge = currentYear - birthYear;
 
 console.log("In " + currentYear + ", you are " + currentAge + " years old");
-
-
-/* ========= PART H: CHALLENGES ========= */
 
 // Problem 23
 let a1 = 10;
